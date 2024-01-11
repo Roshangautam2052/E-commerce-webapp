@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+/* Footer for the system*/
+.footer {
+  background: linear-gradient(90deg, #42032C, #776BCC);
+  color: #000000;
+  padding: 60px 0 20px;
+}
+.footer p {
+  color: #000000;
+}
+.footer h3 {
+  color: #000000;
+  margin-bottom: 20px;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-col-1 {
+  flex-basis: 30px;
+}
+
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-col-3,
+.footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+
+}
+
+
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright {
+  text-align: center;
+}
+.menu-icon {
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.footer-col-4 ul li a{
+  text-decoration:none;
+  font-weight:bold;
+  color: #000000;
+}
+.footer-col-4 h3{
+  color:#000000;
+}
